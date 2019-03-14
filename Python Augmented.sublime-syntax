@@ -414,9 +414,8 @@ contexts:
         - match: \n
           pop: true
 
-  # TODO: I feel like Ellipsis and NotImplemented shouldn't count.
   constants:
-    - match: \b(None|True|False|Ellipsis|NotImplemented|__debug__)\b
+    - match: \b(None|True|False|__debug__)\b
       scope: constant.language.python
     - match: \.{3}(?!\w)
       scope: constant.language.python
