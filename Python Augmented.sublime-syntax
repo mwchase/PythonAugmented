@@ -953,7 +953,7 @@ contexts:
 
   generic-names:
     - match: '{{identifier}}'
-      scope: meta.generic-name.python
+      scope: meta.generic-name.python variable.other.python
 
   illegal-names:
     - match: \b{{illegal_names}}\b
