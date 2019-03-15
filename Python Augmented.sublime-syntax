@@ -164,7 +164,7 @@ contexts:
         - match: '{{illegal_names}}\b'
           scope: invalid.illegal.name.python
         - match: '{{identifier}}'
-          scope: meta.import-name.python
+          scope: meta.import-name.python variable.other.python
         - match: \s*(\.) *(?:({{illegal_names}}\b)|({{identifier}}))
           captures:
             1: punctuation.accessor.dot.python
