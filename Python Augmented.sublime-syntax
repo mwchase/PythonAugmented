@@ -169,7 +169,7 @@ contexts:
           captures:
             1: punctuation.accessor.dot.python
             2: invalid.illegal.name.python
-            3: meta.import-name.python
+            3: meta.import-name.python variable.other.python
         - match: \ *(\. *\S+) # matches and consumes the remainder of "abc.123" or "abc.+"
           captures:
             1: invalid.illegal.name.python
