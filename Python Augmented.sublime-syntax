@@ -1022,7 +1022,7 @@ contexts:
           # pickling
           getnewargs|getnewargs_ex|getstate|setstate|reduce|reduce_ex|
           # descriptors
-          delete|get|set|set_name|
+          delete|get|set|set_name|objclass|
           # class-specific
           subclasses
         )__\b
